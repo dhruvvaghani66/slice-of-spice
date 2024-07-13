@@ -1,0 +1,162 @@
+.box-container {
+    background-color: white;
+    /* padding: 10px !important; */
+    border: 1px solid #ccc;
+    box-shadow: 3px 6px 8px #08080866;
+    width: 92%;
+    height: auto;
+    margin-left: 4vw !important;
+    /* margin-right: 6vw !important; */
+    margin-top: -130px !important;
+    /* margin: 0% !important; */
+    /* text-align: center !important;
+    align-items: center !important;
+    justify-content: center !important; */
+    /* overflow-x: hidden; */
+}
+
+
+
+.content-wrapper {
+    /* padding: 20px !important; */
+    /* width: 85; */
+    /* 
+    text-align: center !important;
+    align-items: center !important;
+    justify-content: center !important; */
+    text-align: center !important;
+    /* margin-bottom: 20px !important; */
+}
+
+h2 {
+    font-size: 24px;
+    color: black;
+    margin-top: 3% !important;
+}
+
+.content-wrapper img {
+    width: 95%;
+    margin-top: 3% !important;
+}
+
+.content-wrapper p {
+    margin-left: -40px !important;
+    font-size: 18px !important;
+    color: black;
+    text-align: left !important;
+    margin-top: 20px !important;
+    margin-bottom: 20px !important;
+}
+
+.content-wrapper button {
+    background-color: transparent;
+    color: #CC9933;
+    font-size: 18px;
+    font-weight: 600;
+    padding: 10px 20px !important;
+    /* margin-top: 2% !important; */
+    cursor: pointer;
+    border: none;
+    margin-bottom: 20px !important;
+    /* margin-bottom: 20% !important; */
+
+}
+
+button:hover {
+    /* background-color: rgb(233, 203, 129); */
+}
+
+
+
+
+
+
+
+/* dell laptop screen */
+
+/* .box-container {
+    background-color: white;
+    padding: 20px !important;
+    border: 1px solid #ccc;
+    box-shadow: 3px 6px 8px #08080866;
+    max-width: 90%;
+    margin: -12% auto !important;
+    text-align: center;
+    overflow-x: hidden;
+}
+
+h2 {
+    font-size: 24px;
+    color: black;
+    margin-top: 2% !important;
+}
+
+img {
+    width: 98%;
+    margin-top: 3% !important;
+}
+
+p {
+    font-size: 18px !important;
+    color: black;
+    text-align: left;
+    margin-top: 20px !important;
+}
+
+button {
+    background-color: transparent;
+    color: #CC9933;
+    font-size: 18px;
+    font-weight: 600;
+    padding: 10px 20px !important;
+    margin-top: 2% !important;
+    cursor: pointer;
+    border: none;
+
+}
+
+button:hover {
+} */
+
+
+
+
+
+
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+    .box-container {
+        margin: -19% 4% !important;
+        /* Adjust margin for smaller screens */
+    }
+
+    .box-container img {
+        width: 95%;
+        margin-top: 10px !important;
+        /* Make image width 100% on smaller screens */
+    }
+
+    .content-wrapper {
+        justify-content: start;
+        align-self: start;
+        text-align: center;
+    }
+
+    .content-wrapper p {
+        width: 94% !important;
+        font-size: 12px !important;
+        color: black;
+        /* justify-content: start; */
+        text-align: center;
+        margin-left: -28% !important;
+        margin-right: 8% !important;
+        /* margin-top: 20px !important; */
+    }
+
+    button {
+        /* margin-top: 10px; */
+        font-size: 16px;
+
+    }
+}

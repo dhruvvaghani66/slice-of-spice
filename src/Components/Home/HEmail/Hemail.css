@@ -1,0 +1,108 @@
+.conta {
+    color: white;
+    background: url('../../../assets/email_bg.png') no-repeat center center / cover;
+    width: 100%;
+    position: relative;
+    height: 18vw;
+    margin-top: 230px !important;
+    display: flex;
+    flex-direction: column;
+    padding: 20px !important;
+    box-sizing: border-box;
+}
+
+.text-container {
+    text-align: center;
+    font-size: 22px;
+    margin-top: 6% !important;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0 10px;
+}
+
+.subscribe-container {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.subscribe-container img {
+    margin-top: 2% !important;
+    width: 32vw;
+    max-width: 100%;
+}
+
+
+
+
+
+/* delll screen */
+
+/* .conta {
+    color: white;
+    background: url('../../../assets/email_bg.png') no-repeat center center / cover;
+    width: 100%;
+    position: relative;
+    height: 18vw;
+    margin-top: 76% !important;
+    display: flex;
+    flex-direction: column;
+    padding: 20px !important;
+    box-sizing: border-box;
+}
+
+.text-container {
+    text-align: center;
+    font-size: 22px;
+    margin-top: 6% !important;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0 10px;
+}
+
+.subscribe-container {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.subscribe-container img {
+    margin-top: 2% !important;
+    width: 32vw;
+    max-width: 100%;
+} */
+
+
+
+
+
+
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+    .conta {
+        padding: 10px !important;
+        height: 40vw !important;
+        width: 106vw !important;
+        margin-top: 17rem !important;
+        /* Adjust margin for smaller screens */
+    }
+
+    .text-container {
+        font-size: 18px;
+        /* Adjust font size for smaller screens */
+        margin-top: 45px !important;
+        /* Adjust margin for better spacing */
+        padding: 0 20px !important;
+        /* Adjust padding for better spacing */
+    }
+
+    .subscribe-container img {
+        width: 80%;
+        /* Adjust image width for smaller screens */
+        margin-left: 6% !important;
+        /* Center the image */
+    }
+}

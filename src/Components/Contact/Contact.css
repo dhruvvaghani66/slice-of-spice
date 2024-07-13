@@ -1,0 +1,318 @@
+.contact {
+    height: 35.5vw;
+    background: url('../../assets/contact_bg.png') no-repeat;
+    background-size: 100% 80%;
+    position: relative;
+    top: 0;
+    left: 0;
+    margin-top: 10% !important;
+    width: 100%;
+    z-index: -1;
+}
+
+.cn {
+    /* position: relative; */
+    margin-top: -10% !important;
+}
+
+.contact-head {
+    background-color: rgba(0, 0, 0, 0.4);
+    height: 7.5vw !important;
+}
+
+.conatct1 {
+    margin-top: 0% !important;
+}
+
+.text1 {
+    font-size: 52px !important;
+    font-weight: 800;
+    color: white;
+    justify-content: center;
+    margin-top: 5.5% !important;
+    margin-left: 12% !important;
+}
+
+.contact-form-container {
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin-left: 30% !important;
+    margin-top: -5% !important;
+    width: 40% !important;
+    padding: 20px !important;
+}
+
+.contact-text {
+    margin-bottom: 20px !important;
+}
+
+.contact-text p {
+    color: black;
+    padding: 10px !important;
+}
+
+.contact-form {
+    border: 3px solid #CC9933;
+    border-radius: 20px;
+    padding: 30px !important;
+    box-shadow: 0 0 10px rgba(175, 175, 175, 0.5), inset 0 0 10px rgba(175, 175, 175, 0.5);
+}
+
+.form-group {
+    margin-bottom: 20px !important;
+    margin-top: 3% !important;
+}
+
+.form-group textarea {
+    height: 100px !important;
+}
+
+input[type="email"],
+input[type="text"],
+input[type="tel"],
+textarea {
+    width: 95% !important;
+    font-size: 19px !important;
+    padding: 17px !important;
+    background-color: #F5F5F5;
+    border: none;
+    border-radius: 5px !important;
+    outline: none;
+}
+
+::placeholder {
+    color: #AAA9A9;
+}
+
+button[type="submit"] {
+    background-color: #CC9933;
+    width: 60% !important;
+    font-size: 20px !important;
+    color: white;
+    padding: 10px !important;
+    font-weight: 100;
+    margin-top: 10% !important;
+    margin-bottom: 10% !important;
+    border: none;
+    border-radius: 5px !important;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button[type="submit"]:hover {
+    background-color: #996600;
+}
+
+.image {
+    margin-top: 3% !important;
+    /* width: 100% !important; */
+    text-align: center;
+}
+
+.image iframe {
+    width: 100%;
+    height: 450px;
+    border: none;
+}
+
+.contact-footer {
+    margin-top: 6% !important;
+}
+
+
+
+
+
+
+
+
+
+/* dell screen  */
+/* .contact {
+    height: 35.5vw;
+    background: url('../../assets/contact_bg.png') no-repeat;
+    background-size: 100% 80%;
+    position: relative;
+    top: 0;
+    left: 0;
+    margin-top: 10% !important;
+    width: 100%;
+    z-index: -1;
+}
+
+.cn {
+    margin-top: -10% !important;
+}
+
+.contact-head {
+    background-color: rgba(0, 0, 0, 0.4);
+    height: 25% !important;
+}
+
+.conatct1 {
+    margin-top: 0% !important;
+}
+
+.text1 {
+    font-size: 52px !important;
+    font-weight: 800;
+    color: white;
+    justify-content: center;
+    margin-top: 5.5% !important;
+    margin-left: 12% !important;
+}
+
+.contact-form-container {
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin-left: 30% !important;
+    margin-top: -5% !important;
+    width: 40% !important;
+    padding: 20px !important;
+}
+
+.contact-text {
+    margin-bottom: 20px !important;
+}
+
+.contact-text p {
+    color: black;
+    padding: 10px !important;
+}
+
+.contact-form {
+    border: 3px solid #CC9933;
+    border-radius: 20px;
+    padding: 30px !important;
+    box-shadow: 0 0 10px rgba(175, 175, 175, 0.5), inset 0 0 10px rgba(175, 175, 175, 0.5);
+}
+
+.form-group {
+    margin-bottom: 20px !important;
+    margin-top: 3% !important;
+}
+
+.form-group textarea {
+    height: 100px !important;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+textarea {
+    width: 95% !important;
+    padding: 18px !important;
+    background-color: #F5F5F5;
+    border: none;
+    border-radius: 5px !important;
+    outline: none;
+}
+
+::placeholder {
+    color: #AAA9A9;
+}
+
+button[type="submit"] {
+    background-color: #CC9933;
+    width: 60% !important;
+    font-size: 20px;
+    color: white;
+    font-weight: 100;
+    margin-top: 10% !important;
+    margin-bottom: 10% !important;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button[type="submit"]:hover {
+    background-color: #996600;
+}
+
+.image {
+    margin-top: 3% !important;
+    width: 100%;
+    text-align: center;
+}
+
+.image iframe {
+    width: 98%;
+    height: 450px;
+    border: none;
+}
+
+.contact-footer {
+    margin-top: 6% !important;
+} */
+
+@media (max-width: 768px) {
+    .cn {
+        /* margin-top: 0 !important; */
+    }
+
+    .conatct1 {
+        position: relative;
+        height: 55vw;
+        margin-bottom: 150% !important;
+    }
+
+    .contact {
+        width: 100%;
+        height: 57vw !important;
+        position: relative;
+        /* margin-bottom: 150% !important; */
+    }
+
+    .contact-head {
+        background-color: transparent;
+    }
+
+    .text1 {
+        font-size: 30px !important;
+        margin-left: 10% !important;
+        margin-top: 20% !important;
+    }
+
+    .contact-form-container {
+        /* position: relative; */
+        margin-left: 6% !important;
+        /* margin-right: -3.5% !important; */
+        width: 80% !important;
+        margin-top: 10% !important;
+    }
+
+    .contact-text h1 {
+        margin-top: -20% !important;
+        font-size: 23px !important;
+    }
+
+    .contact-text p {
+        font-size: 14px !important;
+    }
+
+    .contact-form {
+        padding: 20px !important;
+    }
+
+    input[type="text"],
+    input[type="email"],
+    input[type="tel"],
+    textarea {
+        font-size: 14px !important;
+        width: 85% !important;
+        padding: 14px !important;
+    }
+
+    button[type="submit"] {
+        width: 80% !important;
+        color: white !important;
+    }
+
+    .image iframe {
+        margin-top: 0% !important;
+        height: 300px !important;
+    }
+}

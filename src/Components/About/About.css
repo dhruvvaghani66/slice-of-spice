@@ -1,0 +1,406 @@
+* {
+    margin: 0 !important;
+    padding: 0 !important;
+}
+
+body {
+    overflow-x: hidden;
+}
+
+.about {
+    height: 26.5vw;
+    background: url('../../assets/about_bg.png') no-repeat center center;
+    background-size: cover;
+    position: absolute;
+    width: 100%;
+    z-index: -1;
+    left: 0;
+    right: 0;
+}
+
+.additional-info {
+    display: flex;
+    align-items: center !important;
+    justify-content: center !important;
+    margin-top: 192px !important;
+    background-color: #F7E9E4;
+    height: 28vw;
+}
+
+.info-row {
+    width: 49% !important;
+    text-align: center !important;
+    justify-content: center;
+    align-self: center;
+    margin-left: 120px !important;
+    font-size: 18px !important;
+}
+
+.info-row h1 {
+    margin-left: 120px !important;
+    justify-content: center;
+    align-items: center;
+    text-align: start;
+    width: 90%;
+}
+
+.info-row p {
+    font-size: 18px;
+    text-align: start;
+    width: 80% !important;
+}
+
+.info-row img {
+    width: 86%;
+    margin-top: 9px !important;
+    height: auto;
+    margin-left: -210px !important;
+    border-radius: 8px;
+}
+
+.about-head {
+    background-color: rgba(0, 0, 0, 0.4);
+    height: 7.5vw !important;
+}
+
+.about-text {
+    font-size: 58px;
+    font-weight: 700;
+    color: white;
+    justify-content: center;
+    margin-top: 4.6% !important;
+    margin-left: 14% !important;
+}
+
+.text-content {
+    display: flex;
+    background-color: #F7E9E4;
+    margin-top: 13% !important;
+    align-items: center;
+    justify-content: center;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+.text-content img {
+    width: 80%;
+}
+
+.card-row {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 6% !important;
+    margin-left: 8% !important;
+    margin-right: 8% !important;
+    padding: 0 !important;
+}
+
+.card2 {
+    width: 17% !important;
+    padding: 30px !important;
+    border-radius: 8px;
+    box-shadow: 0 0 6px rgba(0, 0, 0, 0.1);
+    /* Even shadow all around */
+    text-align: center;
+}
+
+
+.card2 img {
+    width: 30%;
+    margin-bottom: 5px !important;
+}
+
+.card2 h3 {
+    margin-top: 13px !important;
+    margin-bottom: 5px !important;
+}
+
+.card2 p {
+    margin-top: 18px !important;
+    font-size: 13px !important;
+    padding: 0 !important;
+    text-align: center;
+}
+
+.team {
+    background-color: #FFEECB;
+    text-align: center;
+    margin-top: 6% !important;
+    padding: 20px !important;
+}
+
+.team h1 {
+    margin-top: 20px !important;
+    font-weight: bolder;
+}
+
+.team p {
+    margin-left: 25% !important;
+    margin-right: 25% !important;
+    text-align: center;
+    margin-bottom: 30px !important;
+    font-size: 20px !important;
+}
+
+.team img {
+    width: 48%;
+    margin-bottom: 30px !important;
+}
+
+.about-footer {
+    margin-top: 6% !important;
+}
+
+
+
+
+
+
+
+
+/* dell screeen size */
+
+/* 
+.about {
+
+    height: 26.5vw;
+    background: url('../../assets/about_bg.png') no-repeat center center;
+    background-size: cover;
+    position: absolute;
+    width: 100%;
+    z-index: -1;
+    left: 0;
+    right: 0;
+
+
+
+}
+
+.additional-info {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-top: 12vw !important;
+    padding-left: 20% !important;
+    padding-right: 10% !important;
+    background-color: #F7E9E4;
+    height: 26vw;
+
+}
+
+.info-row {
+    width: 45%;
+    text-align: start;
+    font-size: 18px;
+
+}
+
+
+
+.info-row p {
+    font-size: 18px;
+    padding-left: 0 !important;
+}
+
+.info-row img {
+    width: 90%;
+    max-width: 500px;
+    height: auto;
+    margin-left: 15% !important;
+    border-radius: 8px;
+}
+
+.about-head {
+    background-color: rgba(0, 0, 0, 0.4);
+    height: 34%;
+}
+
+.about-text {
+    font-size: 58px;
+    font-weight: 700;
+    color: white;
+    justify-content: center;
+    margin-top: 5.2% !important;
+    margin-left: 14% !important;
+}
+
+.text-content {
+    display: flex;
+    background-color: #F7E9E4;
+    margin-top: 13% !important;
+    align-items: center;
+    justify-content: center;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+.text-content img {
+    width: 80%;
+}
+
+.card-row {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 6% !important;
+    margin-left: 8% !important;
+    margin-right: 8% !important;
+    padding: 0 !important;
+}
+
+.card2 {
+    width: 20% !important;
+    padding: 30px !important;
+    border-radius: 8px;
+    box-shadow: 0 0 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+
+.card2 img {
+    width: 28%;
+}
+
+.card2 h3 {
+    margin-top: 13px !important;
+}
+
+.card2 p {
+    margin-top: 18px !important;
+    font-size: 13px !important;
+    padding: 0 !important;
+    text-align: start;
+}
+
+.team {
+    background-color: #FFEECB;
+    text-align: center;
+    margin-top: 6% !important;
+    padding: 20px !important;
+}
+
+.team h2 {
+    margin-top: 20px !important;
+    font-weight: 800;
+}
+
+.team p {
+    margin-left: 25% !important;
+    margin-right: 25% !important;
+    text-align: center;
+    font-size: 20px !important;
+}
+
+.team img {
+    width: 48%;
+}
+
+.about-footer {
+    margin-top: 8% !important;
+}
+ */
+
+@media (max-width: 768px) {
+    .about1 {
+        position: relative;
+        width: 100%;
+        height: 100vh;
+        /* background: transparent; */
+    }
+
+    .about {
+        /* position: absolute; */
+        /* width: 1440px; */
+        /* width: 100vh; */
+        height: 24% !important;
+        /* position: relative; */
+        margin-bottom: 100% !important;
+        /* height: 400px; */
+    }
+
+    .about-head {
+        background-color: transparent;
+    }
+
+    .about-text {
+        /* position: relative; */
+        font-size: 30px !important;
+        margin-left: 10% !important;
+        margin-top: 23% !important;
+    }
+
+    .text-content {
+        flex-direction: column;
+        margin-top: 2rem !important;
+    }
+
+    .additional-info {
+        /* position: relative; */
+        flex-direction: column;
+        margin-top: 7rem !important;
+        /* margin: 0 auto; */
+        height: auto;
+        justify-content: start !important;
+        align-items: start !important;
+        text-align: start !important;
+        width: 99%;
+        /* padding-left: 2% !important; */
+
+    }
+
+    .info-row h1 {
+        margin-left: -125px !important;
+        width: 143% !important;
+        margin-top: 20% !important;
+        font-size: 1.1rem !important;
+    }
+
+    .info-row p {
+        margin-left: -125px !important;
+        width: 160% !important;
+        font-size: 10px !important;
+        /* text-align: start; */
+        padding-left: 0% !important;
+        padding-right: 1rem !important;
+        margin-bottom: 0rem !important;
+    }
+
+    .info-row img {
+        width: 165% !important;
+        margin-left: -130px !important;
+    }
+
+    .card2 img {
+        width: 22% !important;
+    }
+
+    .card2 p {
+        font-size: 0.8rem !important;
+    }
+
+    .card-row {
+        flex-direction: column;
+        /* margin: 1%; */
+        padding: 5% 5% !important;
+    }
+
+    .card2 {
+        width: 76% !important;
+        margin-left: 10px !important;
+        margin-bottom: 20px !important;
+    }
+
+    .team p {
+        width: 90%;
+        margin-left: -105px !important;
+        margin-right: 0% !important;
+        font-size: 0.7rem !important;
+    }
+
+    .team img {
+        width: 100% !important;
+    }
+
+    .about-footer {
+        margin-top: 10% !important;
+    }
+}

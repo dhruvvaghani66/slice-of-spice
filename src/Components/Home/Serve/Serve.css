@@ -1,0 +1,161 @@
+.serve {
+    width: 100%;
+    height: 33vw;
+    top: 160px;
+    background: url('../../../assets/webg.png') no-repeat center center / cover;
+    position: relative;
+    padding: 40px 20px !important;
+    text-align: center;
+    box-sizing: border-box;
+}
+
+.text-container h2 {
+    color: white;
+    margin-top: -2% !important;
+    font-size: 1.4em;
+}
+
+.details {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    padding: 9% 40px !important;
+}
+
+.column {
+    flex: 1;
+    min-width: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.number {
+    font-size: 4.5em;
+    /* font-weight: 900; */
+    font-weight: bold;
+}
+
+.golden {
+    color: #CC9933;
+}
+
+.label {
+    color: white;
+    font-size: 1.7em;
+    margin-top: 10px !important;
+}
+
+
+/* dell screen */
+
+/* .serve {
+    width: 100%;
+    height: 33vw;
+    top: 360%;
+    background: url('../../../assets/webg.png') no-repeat center center / cover;
+    position: absolute;
+    padding: 40px 20px !important;
+    text-align: center;
+    box-sizing: border-box;
+}
+
+.text-container h2 {
+    color: white;
+    margin-top: -2%;
+    font-size: 1.6em;
+}
+
+.details {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    padding: 9% 40px !important;
+}
+
+.column {
+    flex: 1;
+    min-width: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.number {
+    font-size: 4.5em;
+    font-weight: 900;
+}
+
+.golden {
+    color: #CC9933;
+}
+
+.label {
+    color: white;
+    font-size: 1.6em;
+    margin-top: 10px !important;
+} */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+    .serve {
+        padding: 20px !important;
+        height: 60% !important;
+        width: 100% !important;
+        margin-top: 1rem !important;
+        /* Adjust padding for smaller screens */
+    }
+
+    .text-container h2 {
+        font-size: 1.7em !important;
+    }
+
+    .details {
+        flex-direction: column;
+        /* Stack items vertically on smaller screens */
+        align-items: center;
+        /* Center items */
+        margin-left: -20px !important;
+        margin-top: 0px !important;
+        /* Adjust margin for smaller screens */
+    }
+
+    .column {
+        width: 100%;
+        /* Make each item take full width on smaller screens */
+        text-align: center;
+        /* Center align text in columns */
+    }
+
+    .number {
+        font-size: 2.3em !important;
+        margin-top: 10% !important;
+        /* Adjust font size for smaller screens */
+    }
+
+    .label {
+        font-size: 1.2em !important;
+        /* Adjust font size for smaller screens */
+        margin-top: 5px !important;
+        /* Adjust margin for spacing */
+    }
+}

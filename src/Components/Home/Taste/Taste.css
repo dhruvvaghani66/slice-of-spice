@@ -1,0 +1,154 @@
+.taste {
+    height: auto;
+    width: 100%;
+    top: 199px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 20px !important;
+    box-sizing: border-box;
+}
+
+.taste h4 {
+    font-size: 32px;
+    font-weight: 600;
+    margin-bottom: 15px !important;
+    /* margin: 0.5% !important; */
+}
+
+.taste img {
+    width: 3%;
+    /* margin-top: 1%; */
+}
+
+.content p {
+    margin-top: 30px;
+    color: black;
+    font-size: 20px;
+    padding-left: 20% !important;
+    padding-right: 20% !important;
+}
+
+.pro-img {
+    width: 10%;
+    /* Adjust width to fit container */
+    justify-content: center;
+    margin-top: 25px !important;
+    display: flex;
+    align-items: center;
+}
+
+.pro-img img {
+    width: 50%;
+    /* Adjust image size */
+}
+
+.name {
+    font-size: 20px;
+    margin-top: 15px !important;
+    color: black;
+    font-weight: 600;
+}
+
+
+
+
+
+
+
+
+/* dell screen */
+
+/* 
+
+.taste {
+    height: auto;
+    width: 100%;
+    top: 435%;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 20px !important;
+    box-sizing: border-box;
+}
+
+.taste h4 {
+    font-size: 32px;
+    font-weight: 600;
+    margin: 0.5% !important;
+}
+
+.taste img {
+    width: 3%;
+    margin-top: 1%;
+}
+
+.content p {
+    margin-top: 30px;
+    color: black;
+    font-size: 20px;
+    padding-left: 20% !important;
+    padding-right: 20% !important;
+}
+
+.pro-img {
+    width: 10%;
+justify-content: center;
+margin-top: 0%;
+display: flex;
+align-items: center;
+}
+
+.pro-img img {
+    width: 50%;
+}
+
+.name {
+    font-size: 20px;
+    margin-top: 15px !important;
+    color: black;
+    font-weight: 600;
+}
+
+*/
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+    .taste {
+        padding: 10px !important;
+        margin-top: 2rem !important;
+        /* Adjust padding for smaller screens */
+    }
+
+    .taste h4 {
+        font-size: 23px !important;
+        /* Adjust font size for smaller screens */
+    }
+
+    .taste img {
+        width: 7%;
+        /* Adjust image size for smaller screens */
+    }
+
+    .content p {
+        font-size: 14px !important;
+        padding-left: 10% !important;
+        padding-right: 10% !important;
+        margin-top: 4% !important;
+        /* Adjust padding for smaller screens */
+    }
+
+    .pro-img img {
+        width: 160%;
+        /* Adjust image size for smaller screens */
+    }
+
+    .name {
+        font-size: 16px;
+        /* Adjust font size for smaller screens */
+    }
+}

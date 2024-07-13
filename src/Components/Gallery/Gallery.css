@@ -1,0 +1,388 @@
+.gallery {
+    height: 26.5vw !important;
+    background: url('../../assets/gallery.png') no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: -1;
+}
+
+.gallery-nav {
+    /* position: relative; */
+    /* margin-top: 0% !important; */
+}
+
+.gall {
+    /* position: absolute; */
+}
+
+.gallery-head {
+    background-color: rgba(0, 0, 0, 0.5);
+    height: 7.5vw !important;
+}
+
+.text {
+    font-size: 50px;
+    font-weight: 700;
+    color: white;
+    justify-content: center;
+    margin-top: 6% !important;
+    margin-left: 13.6% !important;
+}
+
+
+.gallery-content {
+    margin-top: 3.8% !important;
+    font-size: 28px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.image-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    /* margin: auto; */
+    /* margin-left: -5% !important; */
+    margin-top: 3% !important;
+}
+
+.image-grid img {
+    width: calc(28% - 60px);
+    margin: 12px !important;
+    cursor: pointer;
+}
+
+.gallery-footer {
+    margin-top: 8% !important;
+}
+
+.modal {
+    position: fixed;
+    /* position: relative; */
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.8);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 1000;
+}
+
+.modal-image {
+    width: 74vw !important;
+    height: 98vh !important;
+}
+
+.prev-btn,
+.next-btn {
+    position: absolute !important;
+    top: 50% !important;
+    transform: translateY(-50%) !important;
+    background: transparent !important;
+    border: none !important;
+    color: white !important;
+    font-size: 29px !important;
+    cursor: pointer !important;
+    z-index: 1001 !important;
+}
+
+.prev-btn {
+    left: 160px !important;
+}
+
+.next-btn {
+    right: 160px !important;
+}
+
+.close-btn {
+    position: relative;
+    margin-top: 10%;
+}
+
+
+.preview-modal, .close-btn {
+    position: absolute;
+    /* margin-top: 20% !important; */
+    right: 10px;
+}
+
+.close-btn {
+    position: absolute !important;
+    bottom: 95% !important;
+    /* Changed to bottom */
+    right: 18% !important;
+    /* Centered horizontally */
+    transform: translateX(50%) !important;
+    /* Centered horizontally */
+    background: transparent !important;
+    border: none !important;
+    color: white !important;
+    font-size: 24px !important;
+    cursor: pointer !important;
+    z-index: 1001 !important;
+}
+
+
+
+
+
+
+
+
+/* dell screen  */
+
+/* 
+.gallery {
+    height: 23.5vw;
+    background: url('../../assets/gallery.png') no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: -1;
+}
+
+.gallery-nav {
+}
+
+.gall {
+}
+
+.gallery-head {
+    background-color: rgba(0, 0, 0, 0.5);
+    height: 36%;
+}
+
+.text {
+    font-size: 50px;
+    font-weight: 700;
+    color: white;
+    justify-content: center;
+    margin-top: 3.5% !important;
+    margin-left: 13.6% !important;
+}
+
+
+.gallery-content {
+    margin-top: 2.8% !important;
+    font-size: 28px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.image-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-left: -5% !important;
+
+    margin-top: 3%;
+}
+
+.image-grid img {
+    width: calc(30% - 60px);
+    margin: 19px !important;
+    cursor: pointer;
+}
+
+.gallery-footer {
+    margin-top: 8% !important;
+}
+
+.modal {
+    position: fixed;
+
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.8);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 1000;
+}
+
+.modal-image {
+    max-width: 90%;
+    max-height: 90%;
+}
+
+.prev-btn,
+.next-btn {
+    position: absolute !important;
+    top: 50% !important;
+    transform: translateY(-50%) !important;
+    background: transparent !important;
+    border: none !important;
+    color: white !important;
+    font-size: 24px !important;
+    cursor: pointer !important;
+    z-index: 1001 !important;
+}
+
+.prev-btn {
+    left: 20px !important;
+}
+
+.next-btn {
+    right: 20px !important;
+}
+
+.close-btn {
+    position: relative;
+    margin-top: 10%;
+}
+
+
+.preview-modal, .close-btn {
+    position: absolute;
+    right: 10px;
+}
+
+.close-btn {
+    position: absolute !important;
+    bottom: 70% !important;
+    left: 75% !important;
+    transform: translateX(50%) !important;
+    background: transparent !important;
+    border: none !important;
+    color: white !important;
+    font-size: 24px !important;
+    cursor: pointer !important;
+    z-index: 1001 !important;
+} */
+
+@media (max-width: 768px) {
+    .gall {
+        /* position: relative; */
+        margin-top: 33% !important;
+        /* width: 100%; */
+        /* height: 100vh !important; */
+
+    }
+
+    .gallery-nav {
+        margin-top: 2% !important;
+    }
+
+    .gallery1 {
+        /* position: relative; */
+    }
+
+    .gallery {
+        height: 23vh !important;
+        background: url('../../assets/gallery.png') no-repeat;
+        background-size: cover;
+        background-position: center;
+        position: relative;
+        margin-top: -9rem !important;
+        left: 0;
+        width: 100%;
+        z-index: -1;
+    }
+
+    .text {
+        font-size: 30px !important;
+        margin-left: 8% !important;
+        margin-top: 6.5rem !important;
+    }
+
+    .gallery-content {
+        margin-top: 14% !important;
+        font-size: 24px !important;
+    }
+
+    .image-grid {
+        margin-left: 0% !important;
+    }
+
+    .gallery-head {
+        background: transparent;
+    }
+
+    .image-grid img {
+        /* margin-left: % !important; */
+        /* position: sticky; */
+        width: 80% !important;
+    }
+
+    .gallery-footer {
+        margin-top: 10% !important;
+    }
+
+    .close-btn {
+        position: absolute !important;
+        bottom: 60% !important;
+        /* Changed to bottom */
+        left: 70% !important;
+        /* Centered horizontally */
+
+    }
+
+
+
+    .modal-image {
+        width: 90vw !important;
+        height: 60vh !important;
+    }
+
+    .prev-btn,
+    .next-btn {
+        position: absolute !important;
+        top: 50% !important;
+        transform: translateY(-50%) !important;
+        background: transparent !important;
+        border: none !important;
+        color: white !important;
+        font-size: 24px !important;
+        cursor: pointer !important;
+        z-index: 1001 !important;
+    }
+
+    .prev-btn {
+        left: 30px !important;
+    }
+
+    .next-btn {
+        right: 27px !important;
+    }
+
+    .close-btn {
+        position: relative;
+        margin-top: 10%;
+    }
+
+
+    .preview-modal, .close-btn {
+        position: absolute;
+        /* margin-top: 20% !important; */
+        right: 10px;
+    }
+
+    /* 
+.close-btn {
+    position: absolute !important;
+    bottom: 70% !important;
+    left: 75% !important;
+    transform: translateX(50%) !important;
+    background: transparent !important;
+    border: none !important;
+    color: white !important;
+    font-size: 24px !important;
+    cursor: pointer !important;
+    z-index: 1001 !important;
+} */
+
+
+}

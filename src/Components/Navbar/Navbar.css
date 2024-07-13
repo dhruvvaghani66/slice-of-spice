@@ -1,0 +1,263 @@
+* {
+  margin: 0;
+  padding: 0;
+  /* box-sizing: border-box; */
+  /* Ensure padding and border are included in the element's total width and height */
+}
+
+body, html {
+  margin: 0;
+  padding: 0;
+  /* width: 104% !important; */
+  /* overflow-x: hidden; */
+
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-evenly !important;
+  align-items: center;
+  position: absolute;
+  background: transparent;
+  padding: 2px !important;
+  /* top: 8px !important; */
+}
+
+.logo {
+  width: 125px;
+  margin-left: 6.5vw !important;
+  margin-right: 31.5vw !important;
+  margin-top: 13px !important;
+}
+
+.navbar-menu {
+  display: flex;
+  list-style: none;
+  gap: 28px;
+  font-size: 18px;
+  font-family: Outfit;
+  white-space: nowrap;
+}
+
+.link {
+  text-decoration: none;
+}
+
+.navbar-menu li.active {
+  border-bottom: 3px solid #CC9933;
+  padding-bottom: 1% !important;
+}
+
+.navbar-menu li a {
+  color: white;
+}
+
+.navbar-menu li a:hover {
+  color: #CC9933;
+}
+
+.navbar-right {
+  margin-top: 1.1rem !important ;
+  display: flex;
+  align-items: center;
+  gap: 28px;
+}
+
+.btn1 {
+  display: inline-flex;
+  align-items: center;
+  justify-content: space-around;
+  background: #CC9933;
+  font-size: 18px;
+  font-weight: normal;
+  color: white;
+  width: 180px;
+  border: none;
+  padding: 9px 20px !important;
+  margin-bottom: 19px !important;
+  cursor: pointer;
+  transition: background 0.3s ease;
+  font-family: Outfit;
+}
+
+.btn1 img {
+  width: 18px;
+  /* margin-bottom: 10px !important; */
+}
+
+.hamburger {
+  display: none;
+  font-size: 35px !important;
+  background: none;
+  border: none;
+  color: white;
+  cursor: pointer;
+  margin-left: 6.5rem !important;
+  z-index: 2;
+}
+
+
+/* dell screen  */
+/* @media (max-width: 3000) {
+
+
+  .navbar {
+    width: 10%;
+    margin: 0;
+    margin-left: 6.5vw !important;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: absolute;
+    background: transparent;
+    margin-top: 1% !important;
+  }
+
+  .navbar .logo {
+    width: 125px;
+    margin-top: 0.1% !important;
+  }
+
+
+
+  .navbar-menu {
+    display: flex;
+    list-style: none;
+    gap: 30px;
+    font-size: 18px;
+    font-family: Outfit;
+    white-space: nowrap;
+  }
+
+  .link {
+    text-decoration: none;
+  }
+
+  .navbar-menu li.active {
+    border-bottom: 3px solid #CC9933;
+    padding-bottom: 1% !important;
+  }
+
+  .navbar-menu li a {
+    color: white;
+  }
+
+  .navbar-menu li a:hover {
+    color: #CC9933;
+  }
+
+  .navbar-right {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    margin-right: 14.2% !important;
+    margin-top: 1.2% !important;
+  }
+
+  .btn1 {
+    display: inline-flex;
+    align-items: center;
+    justify-content: space-around;
+    background: #CC9933;
+    font-size: 18px;
+    font-weight: normal;
+    color: white;
+    width: 140%;
+    border: none;
+    padding: 5px 20px !important;
+    margin-bottom: 5% !important;
+    cursor: pointer;
+    transition: background 0.3s ease;
+    font-family: Outfit;
+  }
+
+  .btn1 img {
+    width: 12%;
+    margin-bottom: 6% !important;
+  }
+
+  .hamburger {
+    display: none;
+    font-size: 30px !important;
+    background: none;
+    border: none;
+    color: white;
+    cursor: pointer;
+    margin-right: 5vw !important;
+    z-index: 2;
+  }
+} */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Updated Styles for Mobile */
+@media (max-width: 768px) {
+  .navbar-right {
+    display: none;
+    flex-direction: column;
+    margin-right: 0 !important;
+    width: 103% !important;
+    height: 76vh !important;
+    background: white;
+    position: absolute;
+    top: 91% !important;
+    left: 0 !important;
+    z-index: 1;
+    padding: 10px 0 !important;
+    transition: opacity 0.3s ease, max-height 0.3s ease;
+
+  }
+
+  .navbar .logo {
+    width: 120px;
+    margin-left: 22px !important;
+    margin-top: 6% !important;
+  }
+
+  .navbar-right.mobile-open {
+    display: flex;
+    /* max-height: 500px !important; */
+    opacity: 1;
+  }
+
+  .navbar-menu {
+    flex-direction: column;
+    gap: 30px;
+    width: 90% !important;
+  }
+
+  .navbar-menu li {
+    white-space: nowrap;
+    /* Ensure items do not break into multiple lines */
+  }
+
+  .navbar-menu li a {
+    color: black;
+  }
+
+  .btn1 {
+    /* width: 100%; */
+    padding: 12px 20px !important;
+    margin-left: -2% !important;
+  }
+
+  .hamburger {
+    display: block;
+  }
+}
